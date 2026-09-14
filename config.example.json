@@ -1,0 +1,19 @@
+{
+  "api_key": "YOUR_PERPLEXITY_API_KEY_HERE",
+  "scan_settings": {
+    "default_limit": 10,
+    "min_volume": 1000000,
+    "scan_types": ["gainers", "losers", "both"],
+    "country": "US"
+  },
+  "export_settings": {
+    "csv_enabled": true,
+    "journal_enabled": true,
+    "output_directory": "output"
+  },
+  "risk_management": {
+    "max_position_size_pct": 2,
+    "default_stop_loss_pct": 5,
+    "default_take_profit_pct": 10
+  }
+}
